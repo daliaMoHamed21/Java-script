@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Slider</title>
+  <style>
+    body { 
+      background-color:rgb(228, 247, 250); 
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="slider-container">
+  <img id="slider-image" src="" alt="Slider Image">
+  <br>
+  <div id="slider-text"></div>
+</div>
+<br>
+<button onclick="nextImage()"> >> </button>
+<button onclick="prevImage()"> << </button>
+<button onclick="playSlider()"> Play</button>
+<button onclick="stopSlider()"> Stop</button>
+<button onclick="changeSpeed(6000)"> 1x 6s</button>
+<button onclick="changeSpeed(4000)"> 2x 4s</button>
+<button onclick="changeSpeed(2000)"> 3x 2s</button>
+
+<script src="../Java/day51js.js"></script>
+</body>
+</html>
